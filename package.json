@@ -1,0 +1,41 @@
+{
+  "name": "iteration-09",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.json .",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "format:staged": "pretty-quick --staged",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@hookform/resolvers": "^3.1.0",
+    "antd": "^5.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.10.0",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-react": "^2.1.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "pretty-quick": "^3.1.3",
+    "typescript": "^5.0.4",
+    "vite": "^3.1.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}
